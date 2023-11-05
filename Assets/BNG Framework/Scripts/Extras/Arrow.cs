@@ -215,7 +215,7 @@ namespace BNG {
                 impactSound.time = fromSeconds;
                 impactSound.pitch = Time.timeScale;
                 impactSound.Play();
-                impactSound.SetScheduledEndTime(AudioSettings.dspTime + (toSeconds - fromSeconds));
+                //impactSound.SetScheduledEndTime(AudioSettings.dspTime + (toSeconds - fromSeconds));
             }
         }
     }

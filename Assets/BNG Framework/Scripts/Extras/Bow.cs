@@ -426,7 +426,7 @@ namespace BNG {
                 audioSource.time = fromSeconds;
                 audioSource.volume = volume;
                 audioSource.Play();
-                audioSource.SetScheduledEndTime(AudioSettings.dspTime + (toSeconds - fromSeconds));
+                //audioSource.SetScheduledEndTime(AudioSettings.dspTime + (toSeconds - fromSeconds));
             }
         }
 
